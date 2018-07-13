@@ -1,0 +1,170 @@
+form {
+    margin-bottom: 0;
+}
+
+table {
+    font-size: 13px;
+}
+
+.dd-action{
+    position:absolute;
+    right:10px
+}
+
+.dd-action>a{
+    margin-right:5px
+}
+
+
+#sortable > li {
+    display: block;
+}
+
+#sortable > li > span {
+    /*background-color: white;*/
+    /*display: block;*/
+    /*width: 100%;*/
+    /*margin-bottom: 5px;*/
+    /*border: 1px solid #a5a5a5;*/
+    /*padding: 10px 5px;*/
+
+    display: block;
+    border-radius: 2px;
+    width: 100%;
+    padding: 10px 5px;
+    background: #f4f4f4;
+    margin-bottom: 2px;
+    border-left: 2px solid #e6e7e8;
+    color: #444;
+}
+
+#sortable > li > ul > li > span {
+    /*background-color: white;*/
+    /*display: block;*/
+    /*width: 100%;*/
+    /*border: 1px solid #a5a5a5;*/
+    /*padding: 10px 5px;*/
+    /*margin-bottom: 5px;*/
+
+    background: #f4f4f4;
+    display: block;
+    border-radius: 2px;
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 2px;
+    border-left: 2px solid #e6e7e8;
+    color: #444;
+}
+
+.list-unstyled li > .list-unstyled {
+    padding-left: 25px;
+}
+
+.drag-n-drop {
+cursor: move !important;
+margin: 0 10px;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: #c3fa54 !important;
+    border: 1px dashed #0d638f !important;
+}
+
+/**
+ * Padding at the end of page content
+ */
+.page-content {
+    padding-bottom: 100px !important;
+}
+
+.label-many {
+    line-height: 28px;
+    margin-right: 5px;
+}
+
+.modal-xxl {
+    width: 80%;
+}
+
+#wrapper {
+    position: relative;
+}
+
+.wrapper-yt {
+    max-width: 680px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.youtube {
+    background-color: #000;
+    margin-bottom: 30px;
+    position: relative;
+    padding-top: 56.25%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.youtube img {
+    width: 100%;
+    top: -16.82%;
+    left: 0;
+    opacity: 0.7;
+}
+
+.youtube .play-button {
+    width: 90px;
+    height: 60px;
+    background-color: #333;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    opacity: 0.8;
+    border-radius: 6px;
+}
+
+.youtube .play-button:before {
+    content: "";
+    border-style: solid;
+    border-width: 15px 0 15px 26.0px;
+    border-color: transparent transparent transparent #fff;
+}
+
+.youtube img,
+.youtube .play-button {
+    cursor: pointer;
+}
+
+.youtube img,
+.youtube iframe,
+.youtube .play-button,
+.youtube .play-button:before {
+    position: absolute;
+}
+
+.youtube .play-button,
+.youtube .play-button:before {
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.youtube iframe {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#generator >tr { /////////////////////////////
+border-left: 5px solid red;
+    background: rgb(247, 247, 247);
+    margin-bottom: 2px;
+    cursor: move;
+}
+
+.btn-default, .btn-primary ,.btn-success, .btn-danger, .btn-warning , .btn-info   {////////////////////////
+border-radius: 0 !important;
+    outline: none !important;
+}

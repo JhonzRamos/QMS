@@ -1,0 +1,82 @@
+
+
+
+
+.RowSelect tr {
+    cursor:pointer !important;
+}
+
+/* .dataTables_wrapper */
+
+.dataTables_wrapper .BlockUpdate [action="form"] {
+    display:none;
+}
+.dataTables_wrapper tr > td:first-child i {
+    text-align:left;
+    line-height:*;
+}
+.dataTables_wrapper tr.Selected > td:first-child i.fa-square-o {
+    display:none;
+}
+.dataTables_wrapper tr.Selected > td:first-child i.fa-check-square-o {
+    display:inline-block;
+}
+.dataTables_wrapper tr > td:first-child i.fa-square-o {
+    display:inline-block;
+}
+.dataTables_wrapper tr > td:first-child i.fa-check-square-o {
+    display:none;
+}
+
+
+
+.dataTables_wrapper .ColumnToggle i {
+    visibility: hidden;    
+}
+.dataTables_wrapper .ColumnToggle .Checked i {
+    visibility: visible;
+}
+.dataTables_wrapper tbody .btn-group {
+	visibility: hidden;
+}
+.dataTables_wrapper tbody > tr[role="row"]:hover .btn-group{
+	visibility: visible;
+}
+.dataTables_wrapper tbody > tr img.rounded {
+	margin: 5px;
+	border-radius: 25%;
+}
+.dataTables_wrapper i.fa {
+	width: 22px;
+	text-align: center;
+	margin-right: 5px;
+} 
+
+
+[action="checkIn"],
+[action="checkOut"] {
+    display: none;
+}
+.CanCheckin [action="checkIn"],
+.CanCheckout [action="checkOut"] {
+    display: list-item
+}
+
+.navbar-nav select{
+    width:140px;
+    margin-right:3px;
+}
+
+
+
+.dt-right {
+    text-align: right;
+}
+
+
+[name="Users"] .dataTables_wrapper .fa-user {
+    font-size: 28px !important;
+    margin: 5px;
+    width: 28px;
+}
+
